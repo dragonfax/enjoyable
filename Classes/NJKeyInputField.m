@@ -270,7 +270,7 @@ static BOOL isValidKeyCode(long code) {
     long code = strtol(s, &error, 16);
     
     if (!*error && isValidKeyCode(code) && field.stringValue.length) {
-        self.keyCode = code;
+        self.keyCode = (CGKeyCode)code;
         [self.delegate keyInputField:self didChangeKey:self.keyCode];
     } else {
         self.keyCode = self.keyCode;

@@ -23,7 +23,7 @@
 
 + (NJOutput *)outputWithSerialization:(NSDictionary *)serialization {
     NJOutputKeyPress *output = [[NJOutputKeyPress alloc] init];
-    output.keyCode = [serialization[@"key"] intValue];
+    output.keyCode = (CGKeyCode)[serialization[@"key"] intValue];
     return output;
 }
 
