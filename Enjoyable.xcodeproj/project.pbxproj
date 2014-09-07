@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8EB15AAF19BC200F00C4D337 /* PLAYSTATION(R)3 Controller.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EB15AAE19BC200F00C4D337 /* PLAYSTATION(R)3 Controller.strings */; };
 		D594BF000FAE7397007A85F2 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D594BEFF0FAE7397007A85F2 /* IOKit.framework */; };
 		EE1F3CEA16EF4182008C6426 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE1F3CE816EF4182008C6426 /* Localizable.strings */; };
 		EE35A6E417BBCC9500413995 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE35A6E317BBCC9500413995 /* CoreVideo.framework */; };
@@ -73,6 +74,7 @@
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Enjoyable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Enjoyable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB15AAE19BC200F00C4D337 /* PLAYSTATION(R)3 Controller.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "PLAYSTATION(R)3 Controller.strings"; sourceTree = "<group>"; };
 		D594BEFF0FAE7397007A85F2 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
 		EE1F3CE916EF4182008C6426 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = Resources/English.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EE35A6E317BBCC9500413995 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -233,6 +235,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8EB15AAD19BC200F00C4D337 /* Name Mappings */,
 				EE3D897D16EA817E00596D1F /* Status Menu Icon Disabled.png */,
 				EE3D897E16EA817E00596D1F /* Status Menu Icon.png */,
 				EE3D897B16EA806E00596D1F /* Status Menu Icon Disabled@2x.png */,
@@ -254,6 +257,15 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8EB15AAD19BC200F00C4D337 /* Name Mappings */ = {
+			isa = PBXGroup;
+			children = (
+				8EB15AAE19BC200F00C4D337 /* PLAYSTATION(R)3 Controller.strings */,
+			);
+			name = "Name Mappings";
+			path = "Resources/Name Mappings";
 			sourceTree = "<group>";
 		};
 		EE1D5F8B16E403D600749C36 /* Categories */ = {
@@ -409,6 +421,7 @@
 			files = (
 				EEF17D1916E8E21A00D7DC4D /* com.yukkurigames.Enjoyable.mapping.icns in Resources */,
 				EEF17D1F16E8E23A00D7DC4D /* InfoPlist.strings in Resources */,
+				8EB15AAF19BC200F00C4D337 /* PLAYSTATION(R)3 Controller.strings in Resources */,
 				EEF17D2016E8E23A00D7DC4D /* MainMenu.xib in Resources */,
 				EEF17D2216E8E24400D7DC4D /* Help in Resources */,
 				EE6A122E16E8F46300EDBD32 /* Icon.icns in Resources */,
